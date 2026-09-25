@@ -1,0 +1,4 @@
+node_modules/
+out/*
+!out/claude-showreel-2026-web.mp4
+!out/claude-showreel-2026.webm

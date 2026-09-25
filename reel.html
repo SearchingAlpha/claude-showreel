@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CLAUDE — Showreel 2026</title>
+<style>
+@font-face{font-family:Archivo;src:url(fonts/Archivo.ttf) format('truetype');font-weight:100 900;font-stretch:62% 125%;font-style:normal}
+@font-face{font-family:Archivo;src:url(fonts/Archivo-Italic.ttf) format('truetype');font-weight:100 900;font-stretch:62% 125%;font-style:italic}
+@font-face{font-family:Instrument;src:url(fonts/InstrumentSerif-Regular.ttf) format('truetype');font-style:normal}
+@font-face{font-family:Instrument;src:url(fonts/InstrumentSerif-Italic.ttf) format('truetype');font-style:italic}
+@font-face{font-family:Mono;src:url(fonts/JetBrainsMono.ttf) format('truetype');font-weight:100 800}
+html,body{margin:0;height:100%;background:#050506;overflow:hidden}
+#stage{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;background:#0D0D0F;transform-origin:0 0;
+  font-family:Archivo;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision;font-kerning:normal}
+.scene{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;display:none}
+.a{position:absolute;left:0;top:0}
+.mono{font-family:Mono;font-weight:500;font-size:13px;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
+.serif{font-family:Instrument}
+.it{font-style:italic}
+.nw{white-space:nowrap}
+.mask{display:inline-block;overflow:hidden;vertical-align:top}
+.mask>.in{display:inline-block}
+.row{position:absolute;left:0;top:0;height:135px;display:flex;align-items:center;white-space:nowrap;transform-origin:0 50%}
+.row>span{display:inline-block}
+.row>svg{flex:none;margin:0 34px}
+.tile{position:absolute;overflow:hidden;border-radius:20px}
+.tl{position:absolute;left:22px;top:18px;font-family:Mono;font-size:12px;letter-spacing:.14em;font-weight:500;text-transform:uppercase;white-space:nowrap}
+.tr{position:absolute;right:22px;top:18px;font-family:Mono;font-size:12px;letter-spacing:.14em;font-weight:500;white-space:nowrap}
+.face{white-space:nowrap;backface-visibility:hidden;-webkit-backface-visibility:hidden;font-size:150px;line-height:170px;height:170px;
+  font-variation-settings:'wdth' 100,'wght' 800;color:#EEE9DF;text-align:center}
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="reel.js"></script>
+</body>
+</html>
